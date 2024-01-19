@@ -1,11 +1,27 @@
+import { useEffect, useState } from 'react';
 import tbclogo from '../assets/tbc-icon.png'
 
 
 function Navbar() {
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const scrollPassed = () => {
+            setScrolled(window.scrollY > 0);
+        };
+
+        window.addEventListener('scroll', scrollPassed);
+
+
+        return () => {
+            window.removeEventListener('scroll', scrollPassed);
+        };
+    }, []);
+
     return (
 
-        <header className="bg-[rgb(28,28,28)]  w-full text-[#F4F4F4]  p-4  font-semibold">
-            <div className="flex items-center justify-between max-w-[950px] m-auto   ">
+        <header className={`navbar  w-full text-[#F4F4F4] p-4 font-semibold sticky top-0 ${scrolled ? 'bg-[rgb(28,28,28)] opacity-90 ' : 'bg-[rgb(28,28,28)]'} transition duration-200`}>
+            <div className="flex items-center justify-between max-w-[1000px] pr-4 m-auto   ">
                 <div className="flex items-center">
                     <img src={tbclogo} className="w-12" />
                     <h1 className="text-2xl">აკადემია</h1>

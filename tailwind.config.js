@@ -10,6 +10,7 @@ export default {
       archy: ["BPG Arial Caps"],
       arial: ['BPG Mrgvlovani']
     }
+
   },
   plugins: [],
 }
