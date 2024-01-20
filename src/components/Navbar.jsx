@@ -22,9 +22,10 @@ function Navbar() {
 
         <header className={`navbar  w-full text-[#F4F4F4] p-4 font-semibold sticky top-0 bg-[rgb(28,28,28)] ${scrolled ? ' opacity-90 ' : ''} transition duration-300`}>
             <div className="flex items-center justify-between max-w-[1000px] pr-4 m-auto   ">
-                <div className="flex items-center">
+                <div className="flex items-center ">
                     <img src={tbclogo} className="w-12" />
-                    <h1 className="text-2xl">აკადემია</h1>
+                    <p>X</p>
+                    <h1 className="text-2xl"> აკადემია</h1>
                 </div>
                 <nav>
                     <ul className="flex gap-[45px] ">
