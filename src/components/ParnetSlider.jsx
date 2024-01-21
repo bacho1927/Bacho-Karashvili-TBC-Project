@@ -51,7 +51,7 @@ function PartnerSlider() {
         <div className=" bg-[#2B2B2B] relative h-[380px]">
 
             <div className="max-w-[1000px]  m-auto  pt-8 ">
-                <h1 className="xsm:text-xl lg:text-2xl xsm:px-4 font-arial text-[#F4F4F4] ">პროექტის პარტნიორები</h1>
+                <h1 className="xsm:text-xl lg:text-2xl xsm:px-12 font-arial text-[#F4F4F4] ">პროექტის პარტნიორები</h1>
                 <div className="flex overflow-hidden xsm:gap-20 lg:gap-32 items-center py-28 justify-center" id="sliderContainer ">
 
                     {SliderData.slice(currentIndex, currentIndex + 3).map((image, index) => (
