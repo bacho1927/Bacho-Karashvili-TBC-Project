@@ -11,7 +11,7 @@ export default {
       arial: ['BPG Mrgvlovani']
     },
     screens: {
-      'xsm': '375px',
+      'xsm': '320px',
 
       'sm': '640px',
 
