@@ -16,7 +16,7 @@ function Courses() {
                                     <p className="text-[#F4F4F4]  mt-3 md:text-sm">{description}</p>
                                 </div>
                                 <div className="flex items-center ">
-                                    <FaArrowRight className="text-[#00A3E0] text-lg" />
+                                    <FaArrowRight className="text-[#00A3E0] xsm:text-4xl md:text-xl" />
                                     <a href='/' className="text-[#00A3E0]  ml-3 hover:text-[#008FCC] transition duration-200 md:text-sm">კურსის დეტალები</a>
                                 </div>
                             </div>
