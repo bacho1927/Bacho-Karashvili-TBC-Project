@@ -1,5 +1,4 @@
-
-function SideBar({ closeSidebar }) {
+function NavSidebar({ closeSidebar }) {
     return (
         <div className="absolute h-screen  inset-0 bg-gray-800 bg-opacity-75" onClick={closeSidebar}>
 
@@ -14,4 +13,4 @@ function SideBar({ closeSidebar }) {
     )
 }
 
-export default SideBar
+export default NavSidebar
