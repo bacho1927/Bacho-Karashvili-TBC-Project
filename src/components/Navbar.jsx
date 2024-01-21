@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import tbclogo from '../assets/tbc-icon.png'
 import { FaGripLines } from "react-icons/fa";
-import SideBar from './SideBar';
+// import SideBar from './SideBar';
 
 
 
@@ -55,9 +55,9 @@ function Navbar() {
                     }
                 </div>
             </header>
-            {showSidebar && !largeScreen && (
+            {/* {showSidebar && !largeScreen && (
                 <SideBar closeSidebar={closeSidebar} />
-            )}
+            )} */}
         </>
     )
 }
