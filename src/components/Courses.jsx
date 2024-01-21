@@ -6,7 +6,7 @@ function Courses() {
         <div className="bg-[rgb(28,28,28)] font-arial">
             <div className="max-w-[1000px] m-auto pb-14 xsm:px-4 lg:px-0">
                 <h1 className="text-[#F4F4F4] text-2xl pt-8 mb-16">სასწავლო კურსები</h1>
-                <div className="grid grid-cols-3 gap-10">
+                <div className="xsm:flex xsm:flex-col lg:grid lg:grid-cols-3 gap-10">
                     {CoursesData.map(({ id, title, description, img }) => (
                         <div key={id} className="border border-gray-500 rounded-md ">
                             <img src={img} className="w-full" />
