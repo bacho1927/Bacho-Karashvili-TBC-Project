@@ -5,6 +5,7 @@ import SideBar from './SideBar';
 
 
 
+
 function Navbar() {
     const [scrolled, setScrolled] = useState(false);
     const [showSidebar, setShowSidebar] = useState(false);
