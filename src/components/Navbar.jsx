@@ -55,7 +55,7 @@ function Navbar() {
                     }
                 </div>
             </header>
-            {/* {showSidebar && !largeScreen && (
+            {/* {showSidebar  && !largeScreen && (
                 <SideBar closeSidebar={closeSidebar} />
             )} */}
         </>
