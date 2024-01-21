@@ -55,7 +55,7 @@ function PartnerSlider() {
                 <div className="flex overflow-hidden xsm:gap-20 lg:gap-32 items-center py-28 justify-center" id="sliderContainer ">
 
                     {SliderData.slice(currentIndex, currentIndex + 3).map((image, index) => (
-                        <img key={index} src={image} alt={`Image ${index + 1}`} className="xsm:w-36 lg:w-60" />
+                        <img key={index} src={image} alt={`Image ${index + 1}`} className="xsm:w-36 xl:w-60" />
                     ))}
                     <PiCaretLeftThin onClick={prevSlide} className="absolute top-48 xsm:left-0 lg:left-24 text-5xl text-[#F4F4F4] hover:cursor-pointer hover:text-gray-400" id="sliderContainer" />
 
