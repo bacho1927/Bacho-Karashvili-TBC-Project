@@ -3,7 +3,7 @@ import MainCoverImg from '../assets/main-cover.png'
 function Main() {
     return (
         <main>
-            <section className="  bg-cover  bg-center relative" style={{ backgroundImage: `url(${MainCoverImg})`, }}>
+            <section className="  bg-cover  bg-center " style={{ backgroundImage: `url(${MainCoverImg})`, }}>
                 <div className='max-w-[1000px] xsm:px-4 lg:px-0 m-auto py-24 '>
                     <h1 className='xsm:text-3xl lg:text-5xl font-bold text-[#F4F4F4] mt-4 '>TBC x USAID</h1>
                     <h2 className='xsm:text-3xl lg:text-4xl font-bold text-[#F4F4F4] my-8 font-archy '>ტექნოლოგიური განათლებისთვის</h2>
