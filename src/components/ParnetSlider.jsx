@@ -52,14 +52,14 @@ function PartnerSlider() {
 
             <div className="max-w-[1000px]  m-auto  pt-8 ">
                 <h1 className="xsm:text-xl lg:text-2xl xsm:px-4 font-arial text-[#F4F4F4] ">პროექტის პარტნიორები</h1>
-                <div className="flex overflow-hidden xsm:gap-4 lg:gap-32 items-center py-28 justify-center" id="sliderContainer ">
+                <div className="flex overflow-hidden xsm:gap-20 lg:gap-32 items-center py-28 justify-center" id="sliderContainer ">
 
                     {SliderData.slice(currentIndex, currentIndex + 3).map((image, index) => (
                         <img key={index} src={image} alt={`Image ${index + 1}`} />
                     ))}
-                    <PiCaretLeftThin onClick={prevSlide} className="absolute top-48 xsm:left-0 xl:left-24 text-5xl text-[#F4F4F4] hover:cursor-pointer hover:text-gray-400" id="sliderContainer" />
+                    <PiCaretLeftThin onClick={prevSlide} className="absolute top-48 xsm:left-0 lg:left-24 text-5xl text-[#F4F4F4] hover:cursor-pointer hover:text-gray-400" id="sliderContainer" />
 
-                    <PiCaretRightThin onClick={nextSlide} className="absolute top-48 xsm:right-0 xl:right-24  text-5xl text-[#F4F4F4] hover:cursor-pointer hover:text-gray-400" id="sliderContainer" />
+                    <PiCaretRightThin onClick={nextSlide} className="absolute top-48 xsm:right-0 lg:right-24  text-5xl text-[#F4F4F4] hover:cursor-pointer hover:text-gray-400" id="sliderContainer" />
                 </div>
 
 
