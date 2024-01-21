@@ -1,7 +1,8 @@
 import Courses from "./components/Courses"
+import FaqAccordion from "./components/FaqAccordion"
 import Main from "./components/Main"
 import Navbar from "./components/Navbar"
-import Slider from "./components/Slider"
+import PartnerSlider from "./components/ParnetSlider"
 
 function App() {
   return (
@@ -9,8 +10,8 @@ function App() {
       <Navbar />
       <Main />
       <Courses />
-      <Slider />
-
+      <PartnerSlider />
+      <FaqAccordion />
     </div>
   )
 }

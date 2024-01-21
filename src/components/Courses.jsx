@@ -10,7 +10,7 @@ function Courses() {
                     {CoursesData.map(({ id, title, description, img }) => (
                         <div key={id} className="border border-gray-500 rounded-md ">
                             <img src={img} className="w-full" />
-                            <div className="p-6  flex flex-col justify-between h-64 ">
+                            <div className="p-6  flex flex-col justify-between h-72 ">
                                 <div className=" ">
                                     <h1 className="py-4 text-[#F4F4F4] text-xl ">{title}</h1>
                                     <p className="text-[#F4F4F4] text-sm mt-3">{description}</p>
