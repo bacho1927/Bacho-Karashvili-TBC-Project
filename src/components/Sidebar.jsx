@@ -1,6 +1,6 @@
 
 
-function Sidebar({ closeSidebar }) {
+function SideBar({ closeSidebar }) {
     return (
         <div className="absolute h-screen  inset-0 bg-gray-800 bg-opacity-75" onClick={closeSidebar}>
 
@@ -15,4 +15,4 @@ function Sidebar({ closeSidebar }) {
     )
 }
 
-export default Sidebar
+export default SideBar
