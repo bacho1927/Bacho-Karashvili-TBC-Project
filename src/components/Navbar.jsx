@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react';
 import tbclogo from '../assets/tbc-icon.png'
+import { FaGripLines } from "react-icons/fa";
 
 
 function Navbar() {
     const [scrolled, setScrolled] = useState(false);
+
+    const largeScreen = window.innerWidth >= 1024;
 
     useEffect(() => {
         const scrollPassed = () => {
@@ -27,14 +30,15 @@ function Navbar() {
                     <p>X</p>
                     <h1 className="text-2xl"> აკადემია</h1>
                 </div>
-                <nav>
+                {largeScreen ? <nav>
                     <ul className="flex gap-[45px] ">
                         <li><a href="/" className="hover:text-[#00A3E0] transition duration-200 ">მთავარი </a></li>
                         <li><a href="/" className="hover:text-[#00A3E0] transition duration-200">TBC IT </a></li>
                         <li><a href="/" className="text-[#00A3E0] ">TBC x USAID </a></li>
                         <li><a href="/" className="hover:text-[#00A3E0] transition duration-200">რისკები </a></li>
                     </ul>
-                </nav>
+                </nav> : <FaGripLines />
+                }
             </div>
         </header>
 
