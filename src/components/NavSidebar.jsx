@@ -2,10 +2,10 @@ import { RxCross2 } from "react-icons/rx";
 
 
 function NavSidebar({ closeSidebar, showSidebar }) {
-
+    console.log(showSidebar)
 
     return (
-        <div className=" fixed  w-[400px]  inset-0 right-0 left-auto bg-opacity-75" >
+        <div className={` fixed  w-[400px]  inset-0 right-0 left-auto bg-opacity-75  fade-in `}>
 
             <div className="bg-[#1C1C1C]  h-full relative ">
                 <RxCross2 className="absolute  top-8 right-12 text-7xl text-[#535353]" onClick={closeSidebar} />
