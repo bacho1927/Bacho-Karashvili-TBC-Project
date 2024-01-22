@@ -8,7 +8,7 @@ function NavSidebar({ closeSidebar, showSidebar }) {
         <div className=" fixed  w-[400px]  inset-0 right-0 left-auto bg-opacity-75" >
 
             <div className="bg-[#1C1C1C]  h-full relative ">
-                <RxCross2 className="absolute text-white top-10 right-12 text-6xl" onClick={closeSidebar} />
+                <RxCross2 className="absolute  top-10 right-12 text-6xl text-[#494949]" onClick={closeSidebar} />
 
                 <ul className="text-white right-6 top-28 text-right mt-14 p-4 space-y-16 absolute text-3xl">
                     <li><a href="/">მთავარი</a></li>
