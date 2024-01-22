@@ -48,11 +48,11 @@ function PartnerSlider() {
 
 
     return (
-        <div className=" bg-[#2B2B2B] relative h-[380px]">
+        <div className=" bg-[#2B2B2B]  h-[380px] relative ">
 
             <div className="max-w-[1000px]  m-auto  pt-8 ">
                 <h1 className="xsm:text-3xl lg:text-2xl xsm:px-12 font-arial text-[#F4F4F4] ">პროექტის პარტნიორები</h1>
-                <div className="xsm:flex-col flex overflow-hidden  xsm:gap-4 lg:gap-32 items-center py-28 justify-center" id="sliderContainer ">
+                <div className="flex xsm:flex-col md:flex-row overflow-hidden  xsm:gap-4 lg:gap-32 items-center py-28 justify-center" id="sliderContainer ">
 
                     {SliderData.slice(currentIndex, currentIndex + 3).map((image, index) => (
                         <img key={index} src={image} alt={`Image ${index + 1}`} className="xsm:w-36 xl:w-60" />
