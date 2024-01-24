@@ -21,7 +21,12 @@ export default {
 
       'xl': '1280px',
     },
-
+    keyframes: {
+      slide: {
+        "0%": { opacity: 0 },
+        "100%": { opacity: 1 },
+      },
+    },
   },
   plugins: [],
 }

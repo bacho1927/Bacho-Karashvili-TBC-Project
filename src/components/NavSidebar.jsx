@@ -2,7 +2,7 @@ import { RxCross2 } from "react-icons/rx";
 
 
 function NavSidebar({ closeSidebar, showSidebar }) {
-    console.log(showSidebar)
+
 
     return (
         <div className={` fixed  w-[400px]  inset-0 right-0 left-auto bg-opacity-75  fade-in `}>

@@ -9,7 +9,7 @@ import ufcImage from '../assets/slider-image-7.png'
 
 
 
-const SliderData = [usaidImage, spaceIntImage, tinetImage, tegetaImage, spectreImage, tbcImage, ufcImage,]
+const SliderData = [[usaidImage, spaceIntImage, tinetImage,], [tegetaImage, spectreImage, tbcImage], [ufcImage],]
 
 
 export { SliderData }

@@ -38,9 +38,9 @@ function Navbar() {
 
     return (
         <>
-            <header className={`  w-full text-[#F4F4F4] p-4 font-semibold sticky top-0 bg-[rgb(28,28,28)] ${scrolled ? ' opacity-90 ' : ''} transition duration-300`}>
+            <header className={`w-full text-[#F4F4F4] p-4 font-semibold sticky top-0 bg-[#1A1E1F] ${scrolled ? ' opacity-90 ' : ''} transition duration-300`}>
                 <div className="flex items-center justify-between max-w-[1000px] pr-4 m-auto   xsm:px-8 md:px-0">
-                    <div className="flex items-center xsm:py-4 md:py-0">
+                    <div className="flex items-center xsm:py-4 md:py-0 hover:cursor-pointer">
                         <img src={tbclogo} className="xsm:w-16 md:w-12 " />
                         <p>X</p>
                         <h1 className="xsm:text-4xl  md:text-2xl"> აკადემია</h1>

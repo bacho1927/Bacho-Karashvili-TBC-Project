@@ -13,7 +13,7 @@ function Faq() {
             <div className="max-w-[900px] m-auto py-20 xsm:px-12 lg:px-0">
                 <div className="flex items-center justify-between ">
                     <h1 className="text-[#F4F4F4] text-2xl ">ხშირად დასმული კითხვები</h1>
-                    <h2 className="text-[#00A3E0] font-bold text-xl">ყველა კითხვა</h2>
+                    <h2 className="text-[#00A3E0] font-bold text-xl hover:text-gray-400 hover:cursor-pointer">ყველა კითხვა</h2>
                 </div>
                 <div className="pt-8 text-[#F4F4F4]">
                     <div className="   cursor-pointer  " >
