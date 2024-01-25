@@ -8,7 +8,9 @@ export default {
     extend: {},
     fontFamily: {
       archy: ["BPG Arial Caps"],
-      arial: ['BPG Mrgvlovani']
+      arial: ['BPG Mrgvlovani'],
+      mrgvlovani: ["BPG Mrgvlovani Caps"]
+
     },
     screens: {
       'xsm': '320px',

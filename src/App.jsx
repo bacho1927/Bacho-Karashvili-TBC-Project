@@ -1,5 +1,6 @@
 import Courses from "./components/Courses"
 import FaqAccordion from "./components/FaqAccordion"
+import Footer from "./components/Footer"
 import Main from "./components/Main"
 import Navbar from "./components/Navbar"
 import PartnerSlider from "./components/ParnetSlider"
@@ -12,6 +13,7 @@ function App() {
       <Courses />
       <PartnerSlider />
       <FaqAccordion />
+      <Footer />
     </div>
   )
 }

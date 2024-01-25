@@ -42,8 +42,8 @@ function Navbar() {
                 <div className="flex items-center justify-between max-w-[1000px] pr-4 m-auto   xsm:px-8 md:px-0">
                     <div className="flex items-center gap-2 xsm:py-4 md:py-0 hover:cursor-pointer">
                         <img src={tbclogo} className="xsm:w-16 md:w-12 " />
-                        <p className='text-2xl'>X</p>
-                        <h1 className="xsm:text-4xl  md:text-2xl"> აკადემია</h1>
+                        <p className='text-xl mt-2'>X</p>
+                        <h1 className="mt-4 xsm:text-4xl  md:text-xl font-mrgvlovani"> აკადემია</h1>
                     </div>
                     {largeScreen ? <nav>
                         <ul className="flex gap-[45px] ">
