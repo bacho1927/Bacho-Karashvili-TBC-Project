@@ -5,7 +5,7 @@ function NavSidebar({ closeSidebar, showSidebar }) {
 
 
     return (
-        <div className={` fixed  w-[400px]  inset-0 right-0 left-auto bg-opacity-75  fade-in `}>
+        <div className={` fixed  w-[400px]  inset-0 right-0 left-auto bg-opacity-75 z-[2]  animate-[sideReveal_1000ms]   `}>
 
             <div className="bg-[#1C1C1C]  h-full relative ">
                 <RxCross2 className="absolute  top-8 right-12 text-7xl text-[#535353]" onClick={closeSidebar} />

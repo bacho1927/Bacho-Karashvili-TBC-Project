@@ -35,8 +35,19 @@ export default {
 
           transform: 'translateX(0)',
         },
-      }
+
+      },
+      closeSidebar: {
+        '0%': {
+
+          transform: 'translateX(0)',
+        },
+        '100%': {
+
+          transform: 'translateX(100%)',
+        },
+      },
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 }
