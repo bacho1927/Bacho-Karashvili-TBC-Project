@@ -1,6 +1,10 @@
 @import url("//cdn.web-fonts.ge/fonts/bpg-arial-caps/css/bpg-arial-caps.min.css");
 @import url("//cdn.web-fonts.ge/fonts/bpg-mrgvlovani-caps/css/bpg-mrgvlovani-caps.min.css");
 
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

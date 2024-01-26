@@ -28,27 +28,7 @@ export default {
         "0%": { opacity: 0 },
         "100%": { opacity: 1 },
       },
-      sideReveal: {
-        '0%': {
-
-          transform: 'translateX(100%)',
-        },
-        '100%': {
-
-          transform: 'translateX(0)',
-        },
-
-      },
-      closeSidebar: {
-        '0%': {
-
-          transform: 'translateX(0)',
-        },
-        '100%': {
-
-          transform: 'translateX(100%)',
-        },
-      },
+     
     },
     plugins: [],
   }
