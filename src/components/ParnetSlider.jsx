@@ -77,7 +77,7 @@ function PartnerSlider() {
     }, [currentSlide])
 
     return (
-        <div className=" bg-[#2B2B2B] xsm:h-[680px]  md:h-[380px] relative ">
+        <div className=" bg-[#2B2B2B]  xsm:h-[680px] z-[1] md:h-[380px] relative ">
 
         <div className="max-w-[1000px]  m-auto  pt-8 ">
             <h1 className="xsm:text-3xl lg:text-2xl xsm:px-12 md:px-0 font-arial text-[#F4F4F4] ">პროექტის პარტნიორები</h1>

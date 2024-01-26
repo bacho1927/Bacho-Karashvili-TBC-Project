@@ -78,7 +78,7 @@ function Navbar() {
             </header>
             {showSidebar && (
                 <div
-                    className="fixed inset-0 bg-black opacity-50 z-[3"
+                    className="fixed inset-0 bg-black opacity-50 "
                     onClick={() => setShowSidebar(false)}
                 ></div>
             )}
