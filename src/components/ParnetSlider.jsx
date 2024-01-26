@@ -9,7 +9,7 @@ function PartnerSlider() {
 
     const MAX_PHOTOS_PER_SLIDE = 3;
 
-    const largeScreen = window.innerWidth >= 1024;
+  
 
     //changes to previous slide
 
@@ -79,21 +79,19 @@ function PartnerSlider() {
     return (
         <div className=" bg-[#2B2B2B] xsm:h-[680px]  md:h-[380px] relative ">
 
-            <div className="max-w-[1000px]  m-auto  pt-8 ">
-                <h1 className="xsm:text-3xl lg:text-2xl xsm:px-12 md:px-0 font-arial text-[#F4F4F4] ">პროექტის პარტნიორები</h1>
-                <div className=" flex md:items-end overflow-hidden      items-center   justify-center xsm:h-[550px] md:h-[200px]" id="sliderContainer ">
+        <div className="max-w-[1000px]  m-auto  pt-8 ">
+            <h1 className="xsm:text-3xl lg:text-2xl xsm:px-12 md:px-0 font-arial text-[#F4F4F4] ">პროექტის პარტნიორები</h1>
+            <div className=" flex md:items-end overflow-hidden      items-center   justify-center xsm:h-[550px] md:h-[200px]" id="sliderContainer ">
+
 
                     {SliderData.slice(currentSlide - 1, currentSlide).map(((el) => <div key={currentSlide} className=" flex xsm:flex-col md:flex-row xsm:animate-[sideReveal_1000ms] md:animate-[slide_2500ms] xsm:gap-20 lg:gap-32 items-center " id='sliderContainer'>
                         {el.map(image => <img src={image} key={image} />)}
                     </div>))}
 
+                        <PiCaretLeftThin onClick={previousSlide} className="absolute top-48 xsm:left-0 lg:left-24 text-5xl text-[#F4F4F4] hover:cursor-pointer hover:text-gray-400 hidden md:block" id='sliderContainer' />
 
-                    {largeScreen && <>
-                        <PiCaretLeftThin onClick={previousSlide} className="absolute top-48 xsm:left-0 lg:left-24 text-5xl text-[#F4F4F4] hover:cursor-pointer hover:text-gray-400" id='sliderContainer' />
-
-                        <PiCaretRightThin onClick={nextSlide} className="absolute top-48 xsm:right-0 lg:right-24  text-5xl text-[#F4F4F4] hover:cursor-pointer hover:text-gray-400" id='sliderContainer' />
-                    </>
-                    }
+                        <PiCaretRightThin onClick={nextSlide} className="absolute top-48 xsm:right-0 lg:right-24  text-5xl text-[#F4F4F4] hover:cursor-pointer hover:text-gray-400 hidden md:block " id='sliderContainer' />
+        
 
                 </div>
 

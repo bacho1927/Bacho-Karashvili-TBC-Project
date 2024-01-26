@@ -19,8 +19,8 @@ function Footer() {
                 <div className='p-4'>
                     <h3 className='mb-2 text-sm font-arial'>© 2023 ყველა უფლება დაცულია</h3>
                     <div className='flex items-center justify-between'>
-                        <a className='text-sm font-arial'>წესები და პირობები</a>
-                        <button className='bg-[#00AFF3] hover:bg-[#D5D5D5] hover:text-black p-2 px-6 rounded-md font-arial transition-all duration-300 ease-in-out'>მოგვწერეთ</button>
+                        <a className='text-sm font-arial' >წესები და პირობები</a>
+                        <a href="mailto:itacademy@tbcbank.com.ge" className='bg-[#00AFF3] hover:bg-[#D5D5D5] hover:text-black p-2 px-6 rounded-md font-arial transition-all duration-300 ease-in-out'>მოგვწერეთ</a>
                     </div>
                 </div>
             </div>
