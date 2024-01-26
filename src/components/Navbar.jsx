@@ -62,7 +62,7 @@ function Navbar() {
                             <div className={`absolute bottom-2  w-1/2 h-2 bg-gray-500 rounded-md transition duration-300 ${showSidebar ? 'line3 ' : ''}`}></div>
                     </div>
                 </div>
-                <div className={`transition-all duration-300 fixed  w-[400px]  inset-0 right-0 left-auto ${!showSidebar ? 'hidden' :'block'}    lg:hidden z-[4] `} id='sidebar '>
+                <div className={`transition-all duration-300 fixed  w-[400px]  inset-0 right-0 left-auto ${!showSidebar ? 'opacity-0 pointer-events-none' :'opacity-1 pointer-events-auto'}    lg:hidden z-[4] `} id='sidebar '>
 
             <div className="bg-[#1C1C1C]  h-full relative ">
                 
