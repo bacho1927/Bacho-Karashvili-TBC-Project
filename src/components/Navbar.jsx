@@ -59,9 +59,9 @@ function Navbar() {
                     </nav>
                    
                     <div className='absolute right-14   z-[5]   w-16   lg:hidden transition duration-300' onClick={()=>setShowSidebar(Sidebar => !Sidebar)} >
-                            <div className={`absolute top-4 right-0 w-1/2 h-2 bg-white rounded-md transition duration-300  ${showSidebar ? 'line1 bg-gray-600' : ''}`}></div>
-                            <div className={`absolute w-full h-2 bg-white rounded-md  transition duration-300 ${showSidebar ? 'line2 bg-gray-600' : ''}`}></div>
-                            <div className={`absolute bottom-2  w-1/2 h-2 bg-white rounded-md transition duration-300 ${showSidebar ? 'line3 bg-gray-600' : ''}`}></div>
+                            <div className={`absolute top-4 right-0 w-1/2 h-2 bg-white rounded-md transition duration-300  ${showSidebar ? 'line1 bg-[#585858]' : ''}`}></div>
+                            <div className={`absolute w-full h-2 bg-white rounded-md  transition duration-300 ${showSidebar ? 'line2 bg-[#585858]' : ''}`}></div>
+                            <div className={`absolute bottom-2  w-1/2 h-2 bg-white rounded-md transition duration-300 ${showSidebar ? 'line3 bg-[#585858]' : ''}`}></div>
                     </div>
                 </div>
                 <div className={`transition-all duration-300 fixed  w-[400px]  inset-0 right-0 left-auto ${!showSidebar ? 'opacity-0 pointer-events-none' :'opacity-1 pointer-events-auto'}    lg:hidden z-[4] `} id='sidebar '>
