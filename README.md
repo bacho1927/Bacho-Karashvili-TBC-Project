@@ -2,7 +2,7 @@ TBC x USAID React კურსის ტექნიკური დავალ
 
 გამოყენებულია თანამედროვე ტექნოლოგიები : React.js, Tailwind CSS , Vite
 
-პროექტის ლოკალურად გაშვებისთვის კონსოლში ჩაწერეთ 'npm install და npm run dev' command.
+პროექტის ლოკალურად გაშვებისთვის კონსოლში ჩაწერეთ 'git clone https://github.com/bacho1927/Bacho-karashvili-tbc-project', 'cd პროექტის დირექტორია' , 'npm install' და 'npm run dev' command-ები.
 
 პროექტში ზოგიერთი ანიმაციისთვის გამოყენებულია tailwind.config.js სპეციალური კონფიგურაციები.
 
