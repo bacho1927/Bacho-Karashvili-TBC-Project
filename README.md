@@ -1,8 +1,15 @@
-# React + Vite
+TBC x USAID რეაქტ კურსის ტექნიკური დავალება.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+გამოყენებულია თანამედროვე ტექნოლოგიები : React.js, Tailwind CSS , Vite
 
-Currently, two official plugins are available:
+პროექტის ლოკალურად გაშვებისთვის კონსოლში ჩაწერეთ 'npm install და npm run dev' command.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+პროექტში ზოგიერთი ანიმაციისთვის გამოყენებულია tailwind.config.js სპეციალური კონფიგურაციები.
+
+პროექტი დაყოფილია 7 ძირითად ნაწილად და არის რესპონსიული.
+
+გრძელ კოდიანი ფაილების შემთხვევაში მითითებულია კომენტარები კოდის ლოგიკის და ფუნქციონალის მარტივად გასაგებად.
+
+პარტნიორების განყოფილებაში არსებული სლაიდერი და სლაიდერის ნავიგაციის წერტილები მუშაობს რესპონსიულად მობილურზეც და დესკტოპზეც.
+
+კურსორის სლაიდერზე მოხვედრის შემთხვევაში აღარ ხდება სლაიდების ავტომატური ცვლილება.
