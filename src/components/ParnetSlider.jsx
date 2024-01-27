@@ -34,7 +34,7 @@ function PartnerSlider() {
           setCurrentSlide(prevSlide => prevSlide + 1);
         }
       };
-      console.log(currentSlide)
+     
       slide.addEventListener('touchstart', (e) => {
         touchstartX = e.changedTouches[0].screenX;
      })
