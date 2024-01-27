@@ -84,7 +84,7 @@ function PartnerSlider() {
             <div className=" flex md:items-end overflow-hidden      items-center   justify-center xsm:h-[550px] md:h-[200px]" id="sliderContainer ">
 
 
-                    {SliderData.slice(currentSlide - 1, currentSlide).map(((el) => <div key={currentSlide} className=" flex xsm:flex-col md:flex-row xsm:animate-[sideReveal_1000ms] md:animate-[slide_2500ms] xsm:gap-20 lg:gap-32 items-center " id='sliderContainer'>
+                    {SliderData.slice(currentSlide - 1, currentSlide).map(((el) => <div key={currentSlide} className=" flex xsm:flex-col md:flex-row xsm:animate-[sideReveal_1000ms] md:animate-[slide_2500ms] xsm:gap-20 lg:gap-32 items-center" id='sliderContainer'>
                         {el.map(image => <img src={image} key={image} />)}
                     </div>))}
 
@@ -100,7 +100,7 @@ function PartnerSlider() {
 
                         <span
                             key={slideIndex}
-                            className={`w-2 h-2    mx-2 bg-gray-400 rounded-xl  cursor-pointer `}
+                            className={`xsm:w-4 xsm:h-4 md:w-2 md:h-2    mx-2  rounded-xl  cursor-pointer ${currentSlide == slideIndex+1 ? 'bg-gray-300' : 'bg-gray-500'}`}
                             onClick={() => setCurrentSlide(slideIndex + 1)}
                         ></span>
                     ))}

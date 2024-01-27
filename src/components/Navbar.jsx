@@ -25,8 +25,10 @@ function Navbar() {
             window.removeEventListener('scroll', scrollPassed);
         };
     }, []);
+
+     // disables scrolling when the sidebar is open
     useEffect(() => {
-        // Disable scrolling when the sidebar is open
+       
         if (showSidebar) {
             document.body.style.overflow = 'hidden';
         } else {
@@ -63,7 +65,8 @@ function Navbar() {
                     </div>
                 </div>
                 <div className={`transition-all duration-300 fixed  w-[400px]  inset-0 right-0 left-auto ${!showSidebar ? 'opacity-0 pointer-events-none' :'opacity-1 pointer-events-auto'}    lg:hidden z-[4] `} id='sidebar '>
-
+            
+            {/* this is sidebar component */}
             <div className="bg-[#1C1C1C]  h-full relative ">
                 
 
