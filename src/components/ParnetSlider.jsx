@@ -25,14 +25,11 @@ function PartnerSlider() {
         if (touchendX > touchstartX && currentSlide === 1) {
             setCurrentSlide(3)
           }
-        if (touchendX > touchstartX && currentSlide === 3) {
-            setCurrentSlide(2);
-          }
+        
         if (touchendX < touchstartX && currentSlide === 3) {
             setCurrentSlide(1);
           }
          
-        
         if (touchendX < touchstartX && currentSlide < 3) {
           setCurrentSlide(prevSlide => prevSlide + 1);
         }
