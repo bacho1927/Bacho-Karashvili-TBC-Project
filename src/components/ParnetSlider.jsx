@@ -9,7 +9,40 @@ function PartnerSlider() {
 
     const MAX_PHOTOS_PER_SLIDE = 3;
 
-  
+    let touchstartX = 0;
+    let touchendX = 0;
+    
+    //this logic is for swiping on touchscreen(mobile)
+
+ useEffect(() => {
+    const slide = document.getElementById('sliderContainer')
+   
+
+    const touchDirection = () => {
+        if (touchendX > touchstartX && currentSlide > 1) {
+          setCurrentSlide(prevSlide => prevSlide - 1);
+        }
+        
+        
+        if (touchendX < touchstartX && currentSlide < 3) {
+          setCurrentSlide(prevSlide => prevSlide + 1);
+        }else{
+            setCurrentSlide(1);
+        }
+      };
+      
+      slide.addEventListener('touchstart', (e) => {
+        touchstartX = e.changedTouches[0].screenX;
+     })
+
+     slide.addEventListener('touchend', (e)=>{
+        touchendX = e.changedTouches[0].screenX
+        touchDirection();
+     })
+     
+ },[currentSlide])
+     
+   
 
     //changes to previous slide
 
