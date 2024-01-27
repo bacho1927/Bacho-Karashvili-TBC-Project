@@ -7,8 +7,6 @@ import tbcImage from '../assets/slider-image-6.png'
 import ufcImage from '../assets/slider-image-7.png'
 
 
-
-
 const SliderData = [[usaidImage, spaceIntImage, tinetImage,], [tegetaImage, spectreImage, tbcImage], [ufcImage],]
 
 

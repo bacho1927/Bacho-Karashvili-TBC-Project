@@ -69,7 +69,7 @@ function PartnerSlider() {
         }
     }
 
-    // this changes slides automatically in every 4 seconds
+    // this changes slides automatically in every 5 seconds
 
     useEffect(() => {
         let intervalId;

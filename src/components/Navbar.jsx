@@ -6,7 +6,6 @@ import tbclogo from '../assets/tbc-icon.png'
 
 function Navbar() {
     const [scrolled, setScrolled] = useState(false);
-    
     const [showSidebar, setShowSidebar] = useState(false);
    
   
@@ -39,7 +38,7 @@ function Navbar() {
 
     return (
         <>
-            <header className={`z-[3] w-full text-[#F4F4F4] p-4 font-semibold sticky top-0 bg-[#1A1E1F] ${scrolled ? ' opacity-95 bg-[#2B2B2B]' : ''} transition duration-300`}>
+            <header className={`z-[2] w-full text-[#F4F4F4] p-4 font-semibold sticky top-0 bg-[#1A1E1F] ${scrolled ? ' opacity-95 bg-[#222222]' : ''} transition duration-300`}>
                 <div className="flex items-center justify-between max-w-[1000px]  m-auto   xsm:px-8 md:px-2">
                     <div className="flex items-center gap-2 xsm:py-4 md:py-0 hover:cursor-pointer">
                         <img src={tbclogo} className="xsm:w-16 md:w-12 " />
@@ -64,7 +63,7 @@ function Navbar() {
                 <div className={`transition-all duration-300 fixed  w-[400px]  inset-0 right-0 left-auto ${!showSidebar ? 'opacity-0 pointer-events-none' :'opacity-1 pointer-events-auto'}    lg:hidden z-[4] `} id='sidebar '>
             
             {/* this is sidebar component */}
-            <div className="bg-[#1C1C1C]  h-full relative ">
+            <div className="bg-[#1C1C1C]  h-full relative">
                 
 
                 <ul className="text-white right-6 top-28 text-right mt-14 p-4 space-y-16 absolute text-3xl">
