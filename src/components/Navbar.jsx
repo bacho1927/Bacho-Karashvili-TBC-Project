@@ -39,7 +39,7 @@ function Navbar() {
 
     return (
         <>
-            <header className={`z-[3] w-full text-[#F4F4F4] p-4 font-semibold sticky top-0 bg-[#1A1E1F] ${scrolled ? ' opacity-90 ' : ''} transition duration-300`}>
+            <header className={`z-[3] w-full text-[#F4F4F4] p-4 font-semibold sticky top-0 bg-[#1A1E1F] ${scrolled ? ' opacity-95 bg-[#2B2B2B]' : ''} transition duration-300`}>
                 <div className="flex items-center justify-between max-w-[1000px]  m-auto   xsm:px-8 md:px-2">
                     <div className="flex items-center gap-2 xsm:py-4 md:py-0 hover:cursor-pointer">
                         <img src={tbclogo} className="xsm:w-16 md:w-12 " />
